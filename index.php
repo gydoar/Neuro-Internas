@@ -102,10 +102,38 @@
         <div class="eight columns offset-by-four">
           <p>Considerado entre los 10 mercadólogos más influyentes en el mundo, Escritor de dos "Best Seller’s” de editorial Planeta, el 2015 sus libros de negocios son siempre los más vendidos en toda librería donde llegan, asesora a una docena de empresas líderes en el mundo y por ahora es el divulgador científico negocios y motivación más leído en español en las redes sociales.
           Recientemente fue nombrado como el Steve Jobs de la educación gracias a su innovación social educativa BiiA Lab la cual en solo 2 años ya es la institución que regala más becas y cursos por internet en español ademas de ser vista por mas de 1 millón de personas al año en 35 países, con más de 80 conferencias al año el comparte e inspira a miles de personas a lograr más rápido sus objetivos y también a ser mejores personas.</p>
+
+          <div class="right margin-top-20px">
+            <h5><a class="boton-yellow" href="">Reservar mi cupo</a></h5>
+          </div>
         </div>
         
       </div>
     </div>
+
+    <!-- Seccion de libros -->
+    <section class="container libros">
+      <div class="center">
+        <h3>PACK DE LIBROS DE <span>JÜRGEN KLARIC</span></h3>
+      </div>
+
+      <div class="row content-libros">
+        <div class="six columns">
+          <img class="twelve columns" src="images/libros.png" alt="">
+        </div>
+
+        <div class="five columns offset-by-one margin-top-20px right text-libros">
+          <h4>Estamos Ciegos Best Seller de la Editorial Planeta</h4>
+          <p>Este libro contiene las pruebas más crudas de los fracasos billonarios de         empresarios, publicistas y mercadólogos.</p>
+          <br>
+          <h4>Véndele a la mente no a la gente</h4>
+          <p>Es el último libro de Jürgen Klaric enfocado a las ventas, uno a uno, de               productos y servicios. Este método y técnicas salieron de diversos estudios en laboratorios científicos y también avalados por investigaciones antropológicas y neurocientíficas.</p>
+        </div>
+        <div class="five columns offset-by-one right">
+          <h5><a class="boton-yellow" href="">Reservar mi cupo</a></h5>
+        </div>
+      </div>
+    </section>
   </section>
  
   

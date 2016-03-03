@@ -17,7 +17,7 @@ header{
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 500;
+	z-index: 900;
 	
 }
 .datos-ciudad-header img, .datos-ciudad-header p, .datos-tel-header img, .datos-tel-header p  {
@@ -244,6 +244,7 @@ a.boton-yellow{
 	text-decoration: none;
 	padding: 10px 20px;
 	border-radius: 5px;
+	box-shadow: 0px 2px 4px #000000;
 }
 
 /** Sector historia **/
@@ -258,7 +259,7 @@ a.boton-yellow{
 		-moz-background-size: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 2306px;
+	min-height: 2100px;
 	padding-top: 70px;
 }
 .historia h2{
@@ -269,4 +270,39 @@ a.boton-yellow{
 .historia p{
 	color: #3f0059;
 	font-size: 20px;
+}
+.historia h5{
+	margin-top: 40px;
+	font-weight: bold;
+}
+.libros{
+	margin-top: 600px;
+	color: #ffffff;
+}
+.content-libros{
+	margin-top: 60px;
+}
+.libros h3{
+	color: #ffffff;
+	font-size: 28px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.libros h3 span{
+	color: #ffe700;
+}
+.content-libros h4{
+	margin-bottom: 10px;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: bold;
+	letter-spacing: .3px;
+}
+.content-libros p{
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 20px;
+}
+.text-libros{
+	margin-top: 60px;
 }
