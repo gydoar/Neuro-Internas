@@ -51,8 +51,63 @@
       </div>
     </div>
   </section>
+  
+  <!-- Textos people -->
+  <div class="text-people">
+    <div class="container center">
+      <div class="ten columns offset-by-one">
+          <div class="four columns">
+            <img src="images/circle-colombia.png" alt="">
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem amet, sit, sapiente possimus ea illo dolorem totam voluptate nam in sint facere. Quas pariatur fugiat impedit ipsa, voluptatum fugit autem.
+            <p>Psicóloga, Neurocientífica, Académica de la Universidad Konrad Lorenz y Directora de investigación científica de Mindcode Institute.</p>
+
+            <div><hr></div>
+            <a class="boton-ticket-header" href="">LEER MÁS</a>
+          </div>
+
+          <div class="four columns">
+            <img src="images/circle-us.png" alt="">
+
+            <p>Klaric´ es Investigador, escritor y docente en temas relacionados con el comportamiento inconsciente de los seres humanos.</p>
+
+            <div><hr></div>
+            <a class="boton-ticket-header" href="">LEER MÁS</a>
+          </div>
+
+          <div class="four columns">
+            <img src="images/circle-chile.png" alt="">
+
+            <p>Ex gerente de Great Place to Work, Académico de la Universidad del Pacífico,          presidente del Institute of NeuroCoaching.</p>
+            
+            <div><hr></div>
+            <a class="boton-ticket-header" href="">LEER MÁS</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="center">
+      <h5><a class="boton-yellow" href="">Quiero más INFO</a></h5>
+    </div>
+  </div>
+    
+  <!-- Jurgen historia -->
+
+  <section class="historia">
+    <div class="container right">
+      <div class="nine columns offset-by-three">
+        <div class="twelve columns">
+          <h2>JÜRGEN KLARIC</h2>
+        </div>
+        
+        <div class="eight columns offset-by-four">
+          <p>Considerado entre los 10 mercadólogos más influyentes en el mundo, Escritor de dos "Best Seller’s” de editorial Planeta, el 2015 sus libros de negocios son siempre los más vendidos en toda librería donde llegan, asesora a una docena de empresas líderes en el mundo y por ahora es el divulgador científico negocios y motivación más leído en español en las redes sociales.
+          Recientemente fue nombrado como el Steve Jobs de la educación gracias a su innovación social educativa BiiA Lab la cual en solo 2 años ya es la institución que regala más becas y cursos por internet en español ademas de ser vista por mas de 1 millón de personas al año en 35 países, con más de 80 conferencias al año el comparte e inspira a miles de personas a lograr más rápido sus objetivos y también a ser mejores personas.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+ 
   
 
 <?php include "footer.php"; ?>

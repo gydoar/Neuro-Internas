@@ -2,6 +2,9 @@
 .center{
 	text-align: center;
 }
+.right{
+	text-align: right;
+}
 .margin-top-20px{
 	margin-top: 20px;
 }
@@ -109,7 +112,7 @@ color: #ffffff;
 		-moz-background-size: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 1256px;
+	height: 900px;
 }
 
 .bloque-purpura h2{
@@ -195,4 +198,75 @@ color: #ffffff;
 .nora-people img{
 	position: relative;
 	top: 10px;
+}
+
+.text-people{
+	color: #ffffff;
+	background-image: url(../images/bg-text-people.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 550px;
+}
+.text-people img{
+	z-index: 600;
+	position: relative;
+	text-align: center;
+	margin-top: -100px;
+}
+.text-people hr{
+	border-top: 2px solid rgba(255,255,255,.5);
+	width: 80%;
+}
+.text-people a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.text-people h5{
+	margin-top: 60px;
+	font-weight: bold;	
+	margin-bottom: 0px;
+}
+a.boton-yellow{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe94c+0,ffc03f+100 */
+	background: #ffe94c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffe94c 0%, #ffc03f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffe94c 0%,#ffc03f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffe94c 0%,#ffc03f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe94c', endColorstr='#ffc03f',GradientType=0 ); /* IE6-9 */
+	color: #323437;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+/** Sector historia **/
+.historia{
+	background-image: url(../images/bg-jurgen-people.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 2306px;
+	padding-top: 70px;
+}
+.historia h2{
+	font-size: 90px;
+	font-weight: bold;
+	color: #3f0059;
+}
+.historia p{
+	color: #3f0059;
+	font-size: 20px;
 }
