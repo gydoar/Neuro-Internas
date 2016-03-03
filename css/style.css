@@ -8,6 +8,15 @@
 .margin-top-20px{
 	margin-top: 20px;
 }
+.color-purpura{
+	color: #3e0068;
+}
+.color-gray{
+	color: #737273;
+}
+.color-dorado{
+	color: #7e6d23;
+}
 header{
 	color: #ffffff;
 	background-color: #000000;
@@ -259,7 +268,7 @@ a.boton-yellow{
 		-moz-background-size: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 2100px;
+	min-height: 1900px;
 	padding-top: 70px;
 }
 .historia h2{
@@ -276,7 +285,7 @@ a.boton-yellow{
 	font-weight: bold;
 }
 .libros{
-	margin-top: 600px;
+	margin-top: 400px;
 	color: #ffffff;
 }
 .content-libros{
@@ -305,4 +314,327 @@ a.boton-yellow{
 }
 .text-libros{
 	margin-top: 60px;
+}
+.temas{
+	background-image: url(../images/bg-cerebro.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 2400px;
+	padding-top: 50px;
+}
+.tema1{
+	margin-top: 80px;
+}
+.tema-numero p{
+	font-size: 180px;
+	font-weight: bold;
+	line-height: 0px;
+}
+.tema-text p{
+	letter-spacing: 1px;
+	right: 10px;
+	position: relative;
+	font-size: 41px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.tema-text p span{
+	color: #3e0068;
+}
+.tema-numero, .tema-text{
+	display: inline-block;
+}
+.temas-informacion{
+	color: #3e0068;
+}
+.temas-informacion p strong{
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.temas-informacion p{
+	margin-bottom: 0px;
+}
+.temas-informacion h3{
+	font-weight: bold;
+	margin-bottom: 0px;
+	letter-spacing: 1.5px;
+}
+
+/** Certificado BiiA **/
+.logo-biia{
+	padding-top: 30px;
+	background-image: url(../images/bg-5.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 360px;
+}
+.logo-biia img{
+	max-width: 100%;
+}
+img.sello{
+	position: relative;
+	margin-top: -130px;
+}
+
+/** Certificados **/
+.certificados{
+	padding-top: 70px;
+	background-image: url(../images/bg-certificados.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 700px;
+}
+.certificados img{
+	margin-bottom: 20px;
+}
+.certificados p{
+	color: #3e0068;
+	font-size: 22px;
+	line-height: 24px;
+}
+.certificados h5{
+	font-weight: bold;
+}
+
+/** Locaciones **/
+.locaciones{
+	padding-top: 30px;
+	background-image: url(../images/bg-3.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+}
+.locaciones h3{
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	color: #3e0068; 
+}
+.locaciones p{
+	color: #3e0068; 
+	font-size: 16px;
+}
+.locaciones img{
+	margin-top: 20px;
+}
+/** Tikets **/
+.tickets{
+	background: #300034;
+	padding-top: 30px;
+}
+.tickets h3{
+	color: #ffffff;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+}
+.tickets h4{
+	color: #ffffff;
+	font-size: 20px;
+}
+.plan-ticket{
+	border-radius: 5px;
+	background: #ffffff;
+	height: 800px;
+	margin-top: 40px;
+}
+.title-plata, .title-oro{
+	padding-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px 5px 0px 0px;
+	height: 50px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+}
+.title-oro{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b9ac1c+0,e8dd72+46,e8dd72+50,e8dd72+53,b9ac1c+76,b9ac1c+87,b9ac1c+100 */
+background: rgb(185,172,28); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(185,172,28,1) 0%, rgba(232,221,114,1) 46%, rgba(232,221,114,1) 50%, rgba(232,221,114,1) 53%, rgba(185,172,28,1) 76%, rgba(185,172,28,1) 87%, rgba(185,172,28,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(185,172,28,1) 0%,rgba(232,221,114,1) 46%,rgba(232,221,114,1) 50%,rgba(232,221,114,1) 53%,rgba(185,172,28,1) 76%,rgba(185,172,28,1) 87%,rgba(185,172,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(185,172,28,1) 0%,rgba(232,221,114,1) 46%,rgba(232,221,114,1) 50%,rgba(232,221,114,1) 53%,rgba(185,172,28,1) 76%,rgba(185,172,28,1) 87%,rgba(185,172,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9ac1c', endColorstr='#b9ac1c',GradientType=0 ); /* IE6-9 */
+
+
+}
+.title-plata h4, .title-oro h4{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.title-oro h4{
+	color: #000000;
+}
+.plan-ticket p{
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+.plan-ticket h5{
+	letter-spacing: 1px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.plan-ticket h5 span{
+	font-size: 14px;
+}
+
+.line-precio-preventa hr{
+	width: 50%;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	border-top: 2px solid #737273;
+}
+a.boton-comprar-tickets{
+	font-size: 18px;
+	width: 100%;
+	padding: 20px 20px;
+	text-decoration: none;
+	color: #ffffff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9a239+0,ce7325+100 */
+background: rgb(233,162,57); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(233,162,57,1) 0%, rgba(206,115,37,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(233,162,57,1) 0%,rgba(206,115,37,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(233,162,57,1) 0%,rgba(206,115,37,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a239', endColorstr='#ce7325',GradientType=0 ); /* IE6-9 */
+
+}
+a.boton-comprar-tickets:hover{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9a239+0,ce7325+100 */
+background: rgb(233,162,57); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(233,162,57,1) 0%, rgba(206,115,37,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(233,162,57,1) 0%,rgba(206,115,37,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(233,162,57,1) 0%,rgba(206,115,37,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a239', endColorstr='#ce7325',GradientType=1 ); /* IE6-9 */
+}
+.call-to-action{
+	margin-top: 60px;
+	color: #ffffff;
+}
+.call-to-action h4{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.call-to-action h4 span{
+	color: #ffe600;
+}
+.call-to-action img{
+	margin-bottom: 30px;
+}
+.text-tel p{
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.text-tel p a{
+	color: #ffe600;
+	font-size: 60px;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.icon-tel, .text-tel{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.text-consignacion p{
+	line-height: 20px;
+}
+.text-consignacion a{
+	color: #ffe600;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/** Plaza Mayor **/
+.plaza-mayor{
+	padding-top: 30px;
+	background-image: url(../images/bg-plaza-mayor.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 930px;
+	color: #ffffff;
+	z-index: 400;
+}
+.plaza-mayor h4{
+	 font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.plaza-mayor h4 span{
+	color: #ffe600;
+}
+.plaza-mayor h5{
+	margin-top: 40px;
+	font-weight: bold;
+}
+.fotos{
+	margin-top: -400px;
+	background-image: url(../images/bg-fotos.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 1000px;
+	z-index: 500;
+}
+/** Footer **/
+footer{
+	background: #000000;
+	color: #ffffff;
+	padding: 20px 0px;
+}
+footer p{
+	margin-bottom: 0px;
+}
+footer p img{
+	margin-left: 10px;
+}
+footer p, footer p img{
+	vertical-align: middle;
 }
