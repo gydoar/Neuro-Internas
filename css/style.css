@@ -1,0 +1,198 @@
+/** Simplificados **/
+.center{
+	text-align: center;
+}
+.margin-top-20px{
+	margin-top: 20px;
+}
+header{
+	color: #ffffff;
+	background-color: #000000;
+	padding: 10px 0px;
+
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 500;
+	
+}
+.datos-ciudad-header img, .datos-ciudad-header p, .datos-tel-header img, .datos-tel-header p  {
+	display: inline-block;
+	vertical-align: middle;
+}
+.datos-ciudad-header, .datos-tel-header{
+	margin-top: 20px;
+}
+.datos-ciudad-header p {
+	margin-bottom: 0px;
+	font-weight: bold: 500;
+	font-size: 24px;
+	margin-left: 10px;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+.datos-ciudad-header p span{
+	font-size: 16px;
+}
+.datos-tel-header{
+	float: right;
+}
+.datos-tel-header p{
+	letter-spacing: 1px;
+	font-size: 16px;	
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.datos-tel-header a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/** Nav **/
+.nav{
+	margin-top: 100px;
+	background-color: #080123;	
+	text-align: center;
+}
+nav ul{
+	margin: 0px;
+	padding: 10px 0px;
+}
+nav ul li{
+	margin: 0px;
+	display: inline-block;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0px 20px;
+	font-weight: bold;
+	letter-spacing: .5px;
+}
+nav ul li a:hover{
+	color: #DBDBDB;
+}
+a.boton-ticket-header{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8a043+0,aa5b12+100 */
+background: #e8a043; /* Old browsers */
+background: -moz-linear-gradient(top,  #e8a043 0%, #aa5b12 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e8a043 0%,#aa5b12 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e8a043 0%,#aa5b12 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a043', endColorstr='#aa5b12',GradientType=0 ); /* IE6-9 */
+
+padding: 5px 20px;
+border-radius: 2px;
+}
+
+a.boton-ticket-header:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8a043+0,aa5b12+100 */
+background: #e8a043; /* Old browsers */
+background: -moz-linear-gradient(left,  #e8a043 0%, #aa5b12 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #e8a043 0%,#aa5b12 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #e8a043 0%,#aa5b12 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a043', endColorstr='#aa5b12',GradientType=1 ); /* IE6-9 */
+color: #ffffff;
+}
+/** Primer Bloque **/
+.bloque-purpura{
+	color: #ffffff;
+	background-image: url(../images/bg-purpura.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 1256px;
+}
+
+.bloque-purpura h2{
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 0px 4px 4px #000000;
+	margin-bottom: 5px;
+}
+.bloque-purpura h1{
+	font-size: 50px;
+	letter-spacing: 1px;
+
+}
+.bloque-purpura hr{
+	border-top: 2px solid rgba(255,255,255,.5);
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 90%;
+}
+.bloque-purpura h3{
+	padding-top: 20px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-shadow: 0px 4px 4px #000000;
+	margin-bottom: 5px;
+}
+.formulario{
+	background-color: rgba(87, 82, 96,.8);
+	padding: 5px 40px;
+	border-radius: 15px;
+}
+.formulario h3{
+	font-size: 26px;
+	margin-bottom: 10px;
+	text-shadow: none;
+	font-weight: bold;
+}
+.nombre-expositores h2{
+	font-size: 18px;
+	text-shadow:none;
+	line-height: 24px;
+}
+.fechas-neuro-codificacion{
+	margin-top: 30px;
+}
+.fechas-neuro-codificacion img, .fechas-neuro-codificacion p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.fechas-neuro-codificacion p{
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.nombre-expositores a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+}
+.boton-tickets-neuro{
+	margin-top: 40px;
+}
+/** People ***/
+.people{
+	margin-top: 60px;
+}
+.people img{
+	vertical-align: middle;
+}
+.jurgen-photo img{
+	position: relative;
+	top: -40px;
+	z-index: 300;
+}
+.mauricio-people img{
+	position: relative;
+	right: 50px;
+	z-index: 100;
+	top: 30px;
+}
+.nora-people img{
+	position: relative;
+	top: 10px;
+}
