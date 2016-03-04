@@ -11,7 +11,7 @@
       </div>
 
       <div class="twelve columns center margin-top-20px">
-        <div class="five columns formulario">
+        <div class="five columns formulario offset-by-one">
           <h3>Déjanos Tus Datos</h3>
           <form action="">
             <input type="text" name="nombre" placeholder="NOMBRE">
@@ -24,20 +24,20 @@
           </form>
         </div>
 
-        <div class="five columns offset-by-one margin-top-20px nombre-expositores">
-          <h2>JÜRGEN KLARIC, <br>MAURICIO BOCK Y NORA SARMIENTO</h2>
+        <div class="five columns margin-top-20px nombre-expositores">
+          <h2>JÜRGEN KLARIĆ, <br>MAURICIO BOCK Y NORA SARMIENTO</h2>
           <div class="fechas-neuro-codificacion">
             <img src="images/icon-time.png" alt=""> <p>17 DE MARZO DE 2016<br>3:00 p.m a 10:00 p.m</p>
           </div>
           <div class="fechas-neuro-codificacion">
             <img src="images/icon-map.png" alt=""> <p>MEDELLÍN - COLOMBIA<br>PLAZA MAYOR</p>
           </div>
-          <div class="boton-tickets-neuro"><a class="boton-ticket-header" href="">COMPRAR TICKETS</a></div>
+          <div class="boton-tickets-neuro"><a class="boton-ticket-header" href="#tickets">COMPRAR TICKETS</a></div>
         </div>
       </div>
     </div>
 
-    <div class="container people center">
+    <div class="container people center" id="docentes">
       <div class="three columns offset-by-one nora-people">
         <div><img width="300px;" src="images/nora-sarmiento.png" alt=""></div>
       </div>
@@ -96,7 +96,7 @@
     <div class="container right">
       <div class="nine columns offset-by-three">
         <div class="twelve columns">
-          <h2>JÜRGEN KLARIC</h2>
+          <h2>JÜRGEN KLARIĆ</h2>
         </div>
         
         <div class="eight columns offset-by-four">
@@ -114,7 +114,7 @@
     <!-- Seccion de libros -->
     <section class="container libros">
       <div class="center">
-        <h3>PACK DE LIBROS DE <span>JÜRGEN KLARIC</span></h3>
+        <h3>PACK DE LIBROS DE <span>JÜRGEN KLARIĆ</span></h3>
       </div>
 
       <div class="row content-libros">
@@ -138,7 +138,7 @@
 
   <!-- Temas -->
 
-  <section class="temas">
+  <section class="temas" id="programa">
     <div class="container">
       <div class="ten columns offset-by-one">
         <img class="twelve columns" src="images/bg-agenda.png" alt="">
@@ -150,7 +150,7 @@
 
         <div class="temas-informacion">
           <p><strong>Docente:</strong></p>
-          <h3>Jürgen Klaric</h3>
+          <h3>Jürgen Klarić</h3>
           <p><strong>Objetivo</strong></p>
           <p>Aprender de forma científica a vender, hablar en público y preparar tu mente hacia la prosperidad; ya que no sólo vas a  tener más éxito económico, sino SER más feliz, realizado y líder.</p>
           <br>
@@ -208,8 +208,8 @@
           <p>Aprender qué y cómo se estimula a que la gente diga SI o NO.</p>
           <br>
 
-          <p>Aprenda por qué la mente dice una cosa y hace otra; conoce qué debes
-            de activar o estimular para que la mente reaccione a favor de tu discurso,
+          <p>Aprenda por qué la mente dice una cosa y hace otra; conoce qué debes<br>  
+            de activar o estimular para que la mente reaccione a favor de tu discurso,<br>
             producto o servicio.</p>
           <br>
 
@@ -243,11 +243,11 @@
  
  <!-- Seccion Cerfificados -->
 
- <section class="certificados">
+ <section class="certificados" id="certificacion">
    <div class="container center">
      <img class="twelve columns" src="images/certificados.png" alt="">
      
-     <p><strong>Tu participación en este programa certificado tiene un alto valor curricular debido a que serás acredito al un titulo otorgado por BiiA Lab USA una de las instituciones más autenticas  y vanguardistas de los Estados Unidos. Al cursar y completar correctamente tu examen el cual deberás tomarlo en línea en www.BiiALAb.org en un tiempo máximo de 10 días              después de terminar el programa recibirás el mismo vía digital.</strong></p>
+     <p><strong>Tu participación en este programa certificado tiene un alto valor curricular, serás acreditado con un título otorgado por BiiA Lab USA una de las instituciones más auténticas y vanguardistas de los Estados Unidos; al cursar y completar correctamente tu examen el cual deberás tomarlo en línea en www.BiiALab.org en un tiempo máximo de 10 días, después de terminar el programa recibirás el mismo vía digital.</strong></p>
 
      <p>*Si adquieres la inscripción con memorias contarás con este valioso material de estudio.</p>
    </div>
@@ -271,101 +271,118 @@
 
  <!-- Tickets -->
 
- <section class="tickets">
+ <section class="tickets" id="tickets">
    <div class="container center">
     <div>
       <h3>TICKETS</h3>
     </div>
     <div class="row">
       <!-- plan 1-->
-       <div class="three columns plan-ticket">
+
+       <div class="three columns ">
          <div class="title-plata">
            <h4>GENERAL</h4>
          </div>
-         <img src="images/icon-plata.png" alt="">
-         <p class="color-purpura">Precio Preventa</p>
-         <h5 class="color-gray"><span>$</span>250,000.00<span>COP</span></h5>
-         <div class="line-precio-preventa"><hr></div>
+         <div class="plan-ticket">
+           <img src="images/icon-plata.png" alt="">
+           <p class="color-purpura">Precio Preventa</p>
+           <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
+           <div class="line-precio-preventa"><hr></div>
 
-         <p class="color-purpura">Precio Regular</p>
-         <h5 class="color-purpura"><span>$</span>350,000.00<span>COP</span></h5>
+           <p class="color-purpura">Precio Regular</p>
+           <h5 class="color-purpura"><span>$</span>350,000<span>COP</span></h5>
 
-         <ul class="color-purpura">
-           <li>Memorias digitales</li>
-           <li>Cerficicado digital</li>
-         </ul>
+           <ul class="color-purpura left">
+             <li>Memorias digitales</li>
+             <li>Cerficicado digital</li>
+           </ul>
 
-         <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           <div class="pricing-boton">
+             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           </div>
+         </div> 
        </div>
 
        <!-- Plan 2 -->
-       <div class="three columns plan-ticket">
+       <div class="three columns">
          <div class="title-plata">
            <h4>GENERAL PLUS</h4>
          </div>
-         <img src="images/icon-plata.png" alt="">
-         <p class="color-purpura">Precio Preventa</p>
-         <h5 class="color-gray"><span>$</span>250,000.00<span>COP</span></h5>
-         <div class="line-precio-preventa"><hr></div>
+         <div class="plan-ticket">
+           <img src="images/icon-plata.png" alt="">
+           <p class="color-purpura">Precio Preventa</p>
+           <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
+           <div class="line-precio-preventa"><hr></div>
 
-         <p class="color-purpura">Precio Regular</p>
-         <h5 class="color-purpura"><span>$</span>350,000.00<span>COP</span></h5>
+           <p class="color-purpura">Precio Regular</p>
+           <h5 class="color-purpura"><span>$</span>350,000<span>COP</span></h5>
 
-         <ul class="color-purpura">
-           <li>Memorias digitales</li>
-           <li>Cerficicado digital</li>
-         </ul>
+           <ul class="color-purpura left">
+             <li>Memorias digitales</li>
+             <li>Cerficicado digital</li>
+           </ul>
 
-         <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           <div class="pricing-boton">
+             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           </div>
+         </div>
        </div>
 
        <!-- Plan 3 -->
-       <div class="three columns plan-ticket">
+       <div class="three columns">
          <div class="title-oro">
            <h4>V.I.P</h4>
          </div>
-         <img src="images/icon-dorado.png" alt="">
-         <p class="color-purpura">Precio Preventa</p>
-         <h5 class="color-dorado"><span>$</span>500,000.00<span>COP</span></h5>
-         <div class="line-precio-preventa"><hr></div>
+         <div class="plan-ticket">
+           <img src="images/icon-dorado.png" alt="">
+           <p class="color-purpura">Precio Preventa</p>
+           <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
+           <div class="line-precio-preventa"><hr></div>
 
-         <p class="color-purpura">Precio Regular</p>
-         <h5 class="color-purpura"><span>$</span>700,000.00<span>COP</span></h5>
+           <p class="color-purpura">Precio Regular</p>
+           <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
 
-         <ul class="color-purpura">
-           <li>Memorias digitales</li>
-           <li>Cerficicado digital</li>
-           <li>Posibilidad de participar en preguntas para tu negocio</li>
-           <li>Audioterapia de Neuroriqueza con tecnología bineural, sin audífonos</li>
-           <li>Acceso archivo desde la nube</li>
-         </ul>
+           <ul class="color-purpura left">
+             <li>Memorias digitales</li>
+             <li>Cerficicado digital</li>
+             <li>Posibilidad de participar en preguntas para tu negocio</li>
+             <li>Audioterapia de Neuroriqueza con tecnología bineural, sin audífonos</li>
+             <li>Acceso archivo desde la nube</li>
+           </ul>
 
-         <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           <div class="pricing-boton">
+             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           </div>
+         </div>
        </div>
 
        <!-- Plan 4 -->
-       <div class="three columns plan-ticket">
+       <div class="three columns">
          <div class="title-oro">
            <h4>V.I.P + CENA</h4>
          </div>
-         <img src="images/icon-dorado.png" alt="">
-         <p class="color-purpura">Precio Preventa</p>
-         <h5 class="color-dorado"><span>$</span>250,000.00<span>COP</span></h5>
-         <div class="line-precio-preventa"><hr></div>
+         <div class="plan-ticket">
+           <img src="images/icon-dorado.png" alt="">
+           <p class="color-purpura">Precio Preventa</p>
+           <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
+           <div class="line-precio-preventa"><hr></div>
 
-         <p class="color-purpura">Precio Regular</p>
-         <h5 class="color-purpura"><span>$</span>350,000.00<span>COP</span></h5>
+           <p class="color-purpura">Precio Regular</p>
+           <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
 
-         <ul class="color-purpura">
-           <li>Memorias en carpeta dura</li>
-           <li>Certificado impreso</li>
-           <li>Libro Estamos Ciegos Dedicado</li>
-           <li>Foto con Jürgen</li>
-           <li>Audioterapia de Neuroriqueza con tecnologia bineural, con audífonos</li>
-           <li>Cena consultoría de 2 horas privada</li>
-         </ul>
-
-         <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           <ul class="color-purpura left">
+             <li>Memorias en carpeta dura</li>
+             <li>Certificado impreso</li>
+             <li>Libro Estamos Ciegos Dedicado</li>
+             <li>Foto con Jürgen</li>
+             <li>Audioterapia de Neuroriqueza con tecnologia bineural, con audífonos</li>
+             <li>Cena consultoría de 2 horas privada</li>
+           </ul>
+           
+           <div class="pricing-boton">
+             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+           </div>
+         </div>
        </div>
     </div>  
    </div>

@@ -33,7 +33,7 @@
   <header>
     <div class="container">
       <div class="three columns logo">
-        <h1><a href=""><img class="twelve columns" width="262px" src="images/logo.png" alt=""></a></h1>
+        <h1><a href=""><img width="240px" src="images/logo.png" alt=""></a></h1>
       </div>
 
       <div class="three columns datos-ciudad-header">
@@ -44,16 +44,16 @@
         <img width="50px" src="images/icon-whatsapp.png" alt=""> <p>Separa tu cupo <br> <a href="tel: +1 (786) 805-0449"> +1 (786) 805-0449</a></p>
       </div>
     </div>
-  </header>
 
-      <!-- Nav -->
+    <!-- Nav -->
     <div class="nav">
       <nav class="container">
         <ul>
-          <li><a href="">DOCENTES</a></li>
-          <li><a href="">PROGRAMA</a></li>
-          <li><a href="">CERTIFICACIÓN</a></li>
-          <li><a class="boton-ticket-header" href="">TICKETS</a></li>
+          <li><a href="#docentes">DOCENTES</a></li>
+          <li><a href="#programa">PROGRAMA</a></li>
+          <li><a href="#certificacion">CERTIFICACIÓN</a></li>
+          <li><a class="boton-ticket-header" href="#tickets">TICKETS</a></li>
         </ul>
       </nav>
     </div>
+  </header>

@@ -10,6 +10,34 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 <script>
+	$(document).on("ready", main);
+	function main(){
+		$("nav a").on("click", irA);
+	}
+	function irA(){
+		var seccion = $(this).attr("href");
+		$("body, html").animate({
+			scrollTop: $(seccion).offset().top
+		},1200);
+		return false;
+	}
+</script>
+
+<script>
+	$(document).on("ready", main2);
+	function main2(){
+		$(".nombre-expositores a").on("click", irA2);
+	}
+	function irA2(){
+		var seccion = $(this).attr("href");
+		$("body, html").animate({
+			scrollTop: $(seccion).offset().top
+		},1200);
+		return false;
+	}
+</script>
+
+<script>
 	$(window).scroll(function(){
 
 	  var scroll = $(window).scrollTop();

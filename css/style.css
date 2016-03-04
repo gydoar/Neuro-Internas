@@ -5,6 +5,9 @@
 .right{
 	text-align: right;
 }
+.left{
+	text-align: left;
+}
 .margin-top-20px{
 	margin-top: 20px;
 }
@@ -20,14 +23,16 @@
 header{
 	color: #ffffff;
 	background-color: #000000;
-	padding: 10px 0px;
+	padding: 10px 0px 0px 0px;
 
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 900;
-	
+}
+header h1{
+	margin-bottom: 0px;
 }
 .datos-ciudad-header img, .datos-ciudad-header p, .datos-tel-header img, .datos-tel-header p  {
 	display: inline-block;
@@ -65,7 +70,7 @@ header{
 
 /** Nav **/
 .nav{
-	margin-top: 100px;
+	margin-top: 0px;
 	background-color: #080123;	
 	text-align: center;
 }
@@ -110,6 +115,7 @@ color: #ffffff;
 }
 /** Primer Bloque **/
 .bloque-purpura{
+	margin-top: 140px;
 	color: #ffffff;
 	background-image: url(../images/bg-purpura.jpg);
 	background-attachment: relative;
@@ -151,7 +157,7 @@ color: #ffffff;
 	margin-bottom: 5px;
 }
 .formulario{
-	background-color: rgba(87, 82, 96,.8);
+	background-color: #390062;
 	padding: 5px 40px;
 	border-radius: 15px;
 }
@@ -160,6 +166,12 @@ color: #ffffff;
 	margin-bottom: 10px;
 	text-shadow: none;
 	font-weight: bold;
+}
+.formulario label{
+	font-size: 12px;
+}
+.formulario input[type="submit"]{
+	font-size: 16px;
 }
 .nombre-expositores h2{
 	font-size: 18px;
@@ -326,7 +338,7 @@ a.boton-yellow{
 		-moz-background-size: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 2400px;
+	min-height: 2700px;
 	padding-top: 50px;
 }
 .tema1{
@@ -353,6 +365,9 @@ a.boton-yellow{
 }
 .temas-informacion{
 	color: #3e0068;
+}
+.temas-informacion p{
+	font-size: 18px;
 }
 .temas-informacion p strong{
 	font-size: 18px;
@@ -459,14 +474,13 @@ img.sello{
 	font-size: 20px;
 }
 .plan-ticket{
-	border-radius: 5px;
+	padding: 20px 20px;
+	border-radius: 0px 0px 5px 5px;
 	background: #ffffff;
-	height: 800px;
-	margin-top: 40px;
+	height: 600px;
 }
 .title-plata, .title-oro{
 	padding-top: 20px;
-	margin-bottom: 30px;
 	border-radius: 5px 5px 0px 0px;
 	height: 50px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
@@ -506,7 +520,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9ac1c', end
 .plan-ticket h5 span{
 	font-size: 14px;
 }
-
+.plan-ticket ul li{
+	line-height: 18px;
+}
 .line-precio-preventa hr{
 	width: 50%;
 	margin-bottom: 10px;
@@ -514,9 +530,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9ac1c', end
 	border-top: 2px solid #737273;
 }
 a.boton-comprar-tickets{
-	font-size: 18px;
+	font-size: 16px;
 	width: 100%;
-	padding: 20px 20px;
+	padding: 20px 10px;
 	text-decoration: none;
 	color: #ffffff;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9a239+0,ce7325+100 */
@@ -638,3 +654,118 @@ footer p img{
 footer p, footer p img{
 	vertical-align: middle;
 }
+
+div.pricing-boton{
+   text-align: center;
+   position: absolute;
+   bottom:30px;
+}
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		header{
+			text-align: center;
+		}
+		.logo img{
+			max-width: 60%;
+			text-align: center;
+		}
+		.datos-ciudad-header, .datos-tel-header{
+			margin-top: 10px;
+		}
+		.datos-ciudad-header p{
+			font-size: 16px;
+		}
+		.datos-ciudad-header img{
+			max-width: 50px;
+		}
+		.datos-tel-header a{
+			font-size: 16px;
+		}
+		.datos-tel-header img{
+			max-width: 30%;
+		}
+		nav ul{
+			text-align: center;
+		}
+		nav ul li a{
+			padding: 0px 5px;
+			font-size: 16px;
+		}
+		a.boton-ticket-header{
+			margin-top: 10px;
+		}
+		.bloque-purpura{
+			margin-top: 270px;
+		}
+		.formulario input[type="submit"]{
+			font-size: 14px;
+			text-align: center;
+		}
+		.text-people img{
+			margin-top: 800px;
+		}
+		.people img{
+			text-align: center;
+			max-width: 100%;
+			margin-top: 350px;
+		}
+		.historia h2{
+			font-size: 30px;
+		}
+		.historia p{
+			font-size: 16px;
+		}
+		.tema-numero p{
+			font-size: 80px;
+		}
+		.tema-text p{
+			font-size: 20px;
+			line-height: 20px;
+		}
+		.certificados h5{
+			font-size: 14px;
+		}
+		.temas{
+			min-height: 3100px;
+		}
+		.logo-biia{
+			min-height: 250px;
+		}
+		img.sello{
+			width: 30%;
+		}
+		.locaciones{
+			min-height: 300px;
+		}
+		.call-to-action h4, .text-tel p {
+			font-size: 18px;
+		}
+		.text-tel p {
+			margin-bottom: 5px;
+		}
+		.text-tel p a{
+			font-size: 26px;
+		}
+		.icon-tel img{
+			display: none;
+		}
+		.plaza-mayor img{
+			margin-bottom: 20px;
+		}
+	}
