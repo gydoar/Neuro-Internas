@@ -83,6 +83,22 @@ $(document).ready(function(){
    });
 })
 </script>
+<script>
+$(document).ready(function(){
+   $("#enlaceajax2").click(function(evento){
+      evento.preventDefault();
+      $("#destino").load("contenido-ajax.php");
+   });
+})
+</script>
+<script>
+$(document).ready(function(){
+   $("#enlaceajax3").click(function(evento){
+      evento.preventDefault();
+      $("#destino").load("contenido-ajax.php");
+   });
+})
+</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

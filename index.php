@@ -62,7 +62,7 @@
             <p>Psicóloga, Neurocientífica, Académica de la Universidad Konrad Lorenz y Directora de investigación científica de Mindcode Institute.</p>
 
             <div><hr></div>
-            <a class="boton-ticket-header" href="">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="enlaceajax">LEER MÁS</a>
           </div>
 
           <div class="four columns">
@@ -71,7 +71,7 @@
             <p>Klaric´ es Investigador, escritor y docente en temas relacionados con el comportamiento inconsciente de los seres humanos.</p>
 
             <div><hr></div>
-            <a class="boton-ticket-header" href="">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="enlaceajax2">LEER MÁS</a>
           </div>
 
           <div class="four columns">
@@ -80,7 +80,7 @@
             <p>Ex gerente de Great Place to Work, Académico de la Universidad del Pacífico,          presidente del Institute of NeuroCoaching.</p>
             
             <div><hr></div>
-            <a class="boton-ticket-header" href="" id="enlaceajax">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="enlaceajax3">LEER MÁS</a>
           </div>
           <div id="destino"></div>
       </div>
