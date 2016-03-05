@@ -80,13 +80,14 @@
             <p>Ex gerente de Great Place to Work, Académico de la Universidad del Pacífico,          presidente del Institute of NeuroCoaching.</p>
             
             <div><hr></div>
-            <a class="boton-ticket-header" href="">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="enlaceajax">LEER MÁS</a>
           </div>
+          <div id="destino"></div>
       </div>
     </div>
 
     <div class="center">
-      <h5><a class="boton-yellow" href="">Quiero más INFO</a></h5>
+      <h5><a class="boton-yellow various" href="#inline">Quiero más INFO</a></h5>
     </div>
   </div>
     
@@ -104,7 +105,7 @@
           Recientemente fue nombrado como el Steve Jobs de la educación gracias a su innovación social educativa BiiA Lab la cual en solo 2 años ya es la institución que regala más becas y cursos por internet en español ademas de ser vista por mas de 1 millón de personas al año en 35 países, con más de 80 conferencias al año el comparte e inspira a miles de personas a lograr más rápido sus objetivos y también a ser mejores personas.</p>
 
           <div class="right margin-top-20px">
-            <h5><a class="boton-yellow" href="">Reservar mi cupo</a></h5>
+            <h5><a class="boton-yellow various" href="#inline">Reservar mi cupo</a></h5>
           </div>
         </div>
         
@@ -118,7 +119,7 @@
       </div>
 
       <div class="row content-libros">
-        <div class="six columns">
+        <div class="six columns imagen-libros">
           <img class="twelve columns" src="images/libros.png" alt="">
         </div>
 
@@ -127,10 +128,10 @@
           <p>Este libro contiene las pruebas más crudas de los fracasos billonarios de         empresarios, publicistas y mercadólogos.</p>
           <br>
           <h4>Véndele a la mente no a la gente</h4>
-          <p>Es el último libro de Jürgen Klaric enfocado a las ventas, uno a uno, de               productos y servicios. Este método y técnicas salieron de diversos estudios en laboratorios científicos y también avalados por investigaciones antropológicas y neurocientíficas.</p>
+          <p>Es el último libro de Jürgen Klarić enfocado a las ventas, uno a uno, de               productos y servicios. Este método y técnicas salieron de diversos estudios en laboratorios científicos y también avalados por investigaciones antropológicas y neurocientíficas.</p>
         </div>
         <div class="five columns offset-by-one right">
-          <h5><a class="boton-yellow" href="">Reservar mi cupo</a></h5>
+          <h5><a class="boton-yellow various" href="#inline">Reservar mi cupo</a></h5>
         </div>
       </div>
     </section>
@@ -219,11 +220,11 @@
           <p>- Bases de algoritmos para determinar los estímulos.</p>
           <p>- Verdades y mentiras del neuromarketing.</p>
           <p>- Marco ético.</p>
-          <p>- Recomendaciones prácticas para vender, aprender y entender en
+          <p>- Recomendaciones prácticas para vender, aprender y entender <br>en
                 el mundo de los negocios.</p>
           <br>
           <p><strong>¿Qué te llevarás de forma garantizada?</strong></p>
-          <p>Cómo hacer que tu mente y SER estén en sintonía para lograr más y desgastarse menos.</p>
+          <p>Cómo hacer que tu mente y SER estén en sintonía para lograr más <br>y desgastarse menos.</p>
         </div>  
       </div>
     </div>
@@ -252,7 +253,7 @@
      <p>*Si adquieres la inscripción con memorias contarás con este valioso material de estudio.</p>
    </div>
    <div class="center">
-      <h5><a class="boton-yellow" href="">Deseo inscribirme y recibir memorias del evento</a></h5>
+      <h5><a class="boton-yellow various" href="#inline">Deseo inscribirme y recibir memorias del evento</a></h5>
    </div>
  </section>
 
@@ -404,7 +405,7 @@
       <img class="twelve columns" src="images/medios-pago.png" alt="">
       
       <div class="text-consignacion">
-        <p><strong>Consignación bancaria</strong><br>Cuenta de ahorros Bancolombia 895-769727-85<br>a nombre de Jurgen Klaric<br>con cédula de extranjería N° 356490.<br>Enviar comprobante de la transacción con nombre y teléfono<br>al correo electrónico:<br><a href="mailto:info@jurguenklaric.com">info@jurguenklaric.com</a></p>
+        <p><strong>Consignación bancaria</strong><br>Cuenta de ahorros Bancolombia 895-769727-85<br>a nombre de Jurgen Klarić<br>con cédula de extranjería N° 356490.<br>Enviar comprobante de la transacción con nombre y teléfono<br>al correo electrónico:<br><a href="mailto:info@jurguenklaric.com">info@jurguenklaric.com</a></p>
       </div>
       
     </div>
@@ -426,7 +427,7 @@
        </div>
 
        <div class="twelve columns center">
-          <h5><a class="boton-yellow" href="">Solicito que me llamen</a></h5>
+          <h5><a class="boton-yellow various" href="#inline">Solicito que me llamen</a></h5>
        </div>
      </div>
    </div>
@@ -434,5 +435,19 @@
   
  <!-- background fotos -->
  <section class="fotos"></section>
+
+ <div id="inline" style="width:100%;display: none;" class="center">
+        <h3>Déjanos Tus Datos</h3>
+          <form action="">
+            <input type="text" name="nombre" placeholder="NOMBRE">
+            <input type="text" name="apellido" placeholder="APELLIDO">
+            <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
+            <input type="tel" name="telefono" placeholder="CELULAR">
+            <input type="text" name="ciudad" placeholder="CIUDAD">
+            <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
+            <input type="submit" value="Solicitar más información">
+          </form>
+   
+ </div>
 
 <?php include "footer.php"; ?>

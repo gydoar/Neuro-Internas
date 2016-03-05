@@ -9,6 +9,10 @@
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-buttons.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+
 <script>
 	$(document).on("ready", main);
 	function main(){
@@ -51,6 +55,33 @@
 	 }
 
 	});
+</script>
+
+<!-- Fancybox -->
+<script>
+	$(document).ready(function() {
+		$(".various").fancybox({
+			maxWidth	: 500,
+			maxHeight	: 400,
+			fitToView	: false,
+			width		: '70%',
+			height		: '70%',
+			autoSize	: false,
+			closeClick	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
+	});
+</script>
+
+<!-- mostrar texto con Ajax -->
+<script>
+$(document).ready(function(){
+   $("#enlaceajax").click(function(evento){
+      evento.preventDefault();
+      $("#destino").load("contenido-ajax.php");
+   });
+})
 </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

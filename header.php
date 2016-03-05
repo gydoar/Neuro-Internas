@@ -21,6 +21,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/jquery.fancybox-buttons.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
