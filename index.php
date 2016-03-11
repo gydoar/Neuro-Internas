@@ -13,14 +13,15 @@
       <div class="twelve columns center margin-top-20px">
         <div class="five columns formulario offset-by-one">
           <h3>Déjanos Tus Datos</h3>
-          <form action="">
-            <input type="text" name="nombre" placeholder="NOMBRE">
-            <input type="text" name="apellido" placeholder="APELLIDO">
-            <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
-            <input type="tel" name="telefono" placeholder="CELULAR">
-            <input type="text" name="ciudad" placeholder="CIUDAD">
+          <form method="POST" action="">
+            <div><input type="text" class="nombre" name="nombre" placeholder="NOMBRE" value="<?php if(isset($_POST['nombre'])){ echo $_POST['nombre']; } ?>"><?php if(isset($errors)){ echo $errors[1]; } ?></div>
+            <div><input type="text" class="apellido" name="apellido" placeholder="APELLIDO" value="<?php if(isset($_POST['apellido'])){ echo $_POST['apellido']; } ?>"><?php if(isset($errors)){ echo $errors[2]; } ?></div>
+            <div><input type="email" class="email" name="email" placeholder="CORREO ELECTRÓNICO" value="<?php if(isset($_POST['email'])){ echo $_POST['email']; } ?>"><?php if(isset($errors)){ echo $errors[3]; } ?></div>
+            <div><input type="tel" class="telefono" name="telefono" placeholder="CELULAR" value="<?php if(isset($_POST['telefono'])){ echo $_POST['telefono']; } ?>"><?php if(isset($errors)){ echo $errors[4]; } ?></div>
+            <div><input type="text" class="ciudad" name="ciudad" placeholder="CIUDAD" value="<?php if(isset($_POST['ciudad'])){ echo $_POST['ciudad']; } ?>"><?php if(isset($errors)){ echo $errors[5]; } ?></div>
+            <?php if(isset($result)) { echo $result; } ?>
             <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
-            <input type="submit" value="Solicitar más información">
+            <div><input type="submit" class="boton" name="boton" value="Solicitar más información"></div>
           </form>
         </div>
 
@@ -420,7 +421,7 @@
 
      <div class="row">
        <div class="six columns">
-         <img class="twelve columns" src="images/plaza-mayor.jpg" alt="">
+         <img class="twelve columns" style="min-height:324px;" width="100%;" src="images/plaza-mayor.jpg" alt="">
        </div>
        <div class="six columns">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.153400291423!2d-75.57834868552409!3d6.243505328087787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ab627545c1%3A0x23674fd4c47ec19c!2sPlaza+Mayor!5e0!3m2!1ses!2ses!4v1457047329898" width="100%" height="324" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -438,14 +439,15 @@
 
  <div id="inline" style="width:100%;display: none;" class="center">
         <h3>Déjanos Tus Datos</h3>
-          <form action="">
-            <input type="text" name="nombre" placeholder="NOMBRE">
-            <input type="text" name="apellido" placeholder="APELLIDO">
-            <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
-            <input type="tel" name="telefono" placeholder="CELULAR">
-            <input type="text" name="ciudad" placeholder="CIUDAD">
-            <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
-            <input type="submit" value="Solicitar más información">
+          <form method="POST" action="">
+            <div><input type="text" class="nombre1" name="nombre1" placeholder="NOMBRE" value="<?php if(isset($_POST['nombre1'])){ echo $_POST['nombre1']; } ?>"><?php if(isset($errorss)){ echo $errorss[6]; } ?></div>
+          <div><input type="text" class="apellido1" name="apellido1" placeholder="APELLIDO" value="<?php if(isset($_POST['apellido1'])){ echo $_POST['apellido1']; } ?>"><?php if(isset($errorss)){ echo $errorss[7]; } ?></div>
+          <div><input type="email" class="email1" name="email1" placeholder="CORREO ELECTRÓNICO" value="<?php if(isset($_POST['email1'])){ echo $_POST['email1']; } ?>"><?php if(isset($errorss)){ echo $errorss[8]; } ?></div>
+          <div><input type="tel" class="telefono1" name="telefono1" placeholder="CELULAR" value="<?php if(isset($_POST['telefono1'])){ echo $_POST['telefono1']; } ?>"><?php if(isset($errorss)){ echo $errorss[9]; } ?></div>
+          <div><input type="text" class="ciudad1" name="ciudad1" placeholder="CIUDAD" value="<?php if(isset($_POST['ciudad1'])){ echo $_POST['ciudad1']; } ?>"><?php if(isset($errorss)){ echo $errorss[10]; } ?></div>
+          <?php if(isset($result)) { echo $result; } ?>
+          <label class="center" for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
+          <div><input type="submit" class="boton1" name="boton1" value="Enviar datos"></div>
           </form>
    
  </div>

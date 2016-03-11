@@ -12,6 +12,7 @@
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/jquery.fancybox-buttons.js"></script>
 <script src="js/jquery.fancybox-media.js"></script>
+<script src="js/funciones.js"></script>
 
 <script>
 	$(document).on("ready", main);
@@ -98,6 +99,14 @@ $(document).ready(function(){
       $("#destino").load("contenido-ajax.php");
    });
 })
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    setTimeout(function() {
+	        $("#result").fadeOut(1500);
+	    },3000);
+	});
 </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

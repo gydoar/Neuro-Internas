@@ -482,7 +482,8 @@ img.sello{
 	padding: 20px 20px;
 	border-radius: 0px 0px 5px 5px;
 	background: #ffffff;
-	height: 600px;
+	min-height: 600px;
+	max-width: 100%;
 }
 .title-plata, .title-oro{
 	padding-top: 20px;
@@ -668,6 +669,26 @@ div.pricing-boton{
 #inline h3{
 	font-size: 28px;
 }
+
+.error{
+	font-size: 12px;
+	background: #BC1010;
+	color: #ffffff;
+	padding: 6px 12px;
+	position: relative;
+	top: -10px;
+	border-radius: 4px;
+	letter-spacing: .5px;
+}
+.result_ok{
+	background: #1EA700;
+	color: #ffffff;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 4px;
+	letter-spacing: .5px;
+}
 /*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
@@ -716,7 +737,7 @@ div.pricing-boton{
 			margin-top: 10px;
 		}
 		.bloque-purpura{
-			margin-top: 270px;
+			margin-top: 250px;
 		}
 		.formulario input[type="submit"]{
 			font-size: 14px;
@@ -884,5 +905,12 @@ div.pricing-boton{
 		}
 		#inline label{
 			font-size: 12px;
+		}
+		.mauricio-people img{
+			right: 0px;
+			left: 0px;
+		}
+		.text-people p, .text-people img, .text-people a, .text-people hr{
+			display: none;
 		}
 	}
