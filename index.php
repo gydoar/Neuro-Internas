@@ -300,6 +300,18 @@
            </ul>
 
            <div class="pricing-boton">
+            <form action="">
+              <!-- Descripcion del producto -->
+              <input type="hidden" name="descriptcion" value="Neuro Codificación - Medellín - General">
+              <!-- Precio de venta -->
+              <input type="hidden" name="precio" value="250000">
+              <!-- Pais -->
+              <input type="hidden" name="id_pais" value="562169">
+              <!-- Moneda -->
+              <input type="hidden" name="moneda" value="COP">
+
+              <input type="submit" class="boton-comprar-tickets">
+            </form>
              <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
            </div>
          </div> 
