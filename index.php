@@ -5,7 +5,7 @@
     <div class="container">
       <div class="ten columns offset-by-one center">
         <h2>PRIMER PROGRAMA CERTIFICADO PRESENCIAL DE</h2>
-        <img class="twelve columns" src="images/logo-neuro-codificacion.png" alt="">
+        <h1>NEUROCODIFICACIÓN 2016</h1>
         <div class="twelve columns"><hr></div>
         <h3>INVESTIGACIÓN, MARKETING, EMPODERAMIENTO, ORATORIA Y PROSPERIDAD</h3>
       </div>
@@ -60,7 +60,7 @@
           <div class="four columns">
             <img src="images/circle-colombia.png" alt="">
 
-            <p>Psicóloga, Neurocientífica, Académica de la Universidad Konrad Lorenz y Directora de investigación científica de Mindcode Institute.</p>
+            <p>Psicóloga, Neurocientífica, Académica de la Universidad Konrad Lorenz y Directora científica de Mindcode Institute.</p>
 
             <div><hr></div>
             <a class="boton-ticket-header" href="" id="enlaceajax">LEER MÁS</a>
@@ -132,7 +132,7 @@
           <p>Es el último libro de Jürgen Klarić enfocado a las ventas, uno a uno, de               productos y servicios. Este método y técnicas salieron de diversos estudios en laboratorios científicos y también avalados por investigaciones antropológicas y neurocientíficas.</p>
         </div>
         <div class="five columns offset-by-one right">
-          <h5><a class="boton-yellow various" href="#inline">Reservar mi cupo</a></h5>
+          <h5><a class="boton-yellow various" target="new" href="http://jurgenklaric.com/productos">Comprar libros</a></h5>
         </div>
       </div>
     </section>
@@ -148,11 +148,9 @@
 
       <div class="twelve columns tema1">
         <div class="tema-numero"><p>1</p></div>
-        <div class="tema-text"><p>TEMA UNO<br><span>Neuroventas, Neuro <br>Oratoria y Neuro Riqueza</span></p></div>
+        <div class="tema-text"><p>TEMA UNO<br><span>Neuroventas, Neurooratoria<br> y Neuroriqueza</span></p></div>
 
         <div class="temas-informacion">
-          <p><strong>Docente:</strong></p>
-          <h3>Jürgen Klarić</h3>
           <p><strong>Objetivo</strong></p>
           <p>Aprender de forma científica a vender, hablar en público y preparar tu mente hacia la prosperidad; ya que no sólo vas a  tener más éxito económico, sino SER más feliz, realizado y líder.</p>
           <br>
@@ -187,8 +185,6 @@
         <div class="tema-text"><p>TEMA DOS<br><span>Neuroempoderamiento</span></p></div>
 
         <div class="temas-informacion">
-          <p><strong>Docente:</strong></p>
-          <h3>Mauricio Bock</h3>
           <p><strong>Objetivo</strong></p>
           <p>Trabajar en equipo con tu mente te hará ser y lograr lo que quieras sin tanto desgaste. Aprende a crear las mejores condiciones y entornos para convertirte en un ser especial, el cual pueda operar y lograr liderazgo de forma sostenible.</p>
           <br>
@@ -204,8 +200,6 @@
         <div class="tema-text"><p>TEMA TRES<br><span>Neuroempoderamiento</span></p></div>
 
         <div class="temas-informacion">
-          <p><strong>Docente:</strong></p>
-          <h3>Nora Sarmiento</h3>
           <p><strong>Objetivo</strong></p>
           <p>Aprender qué y cómo se estimula a que la gente diga SI o NO.</p>
           <br>
@@ -282,13 +276,14 @@
       <!-- plan 1-->
 
        <div class="three columns ">
-         <div class="title-plata">
+         <div class="title-general">
            <h4>GENERAL</h4>
          </div>
          <div class="plan-ticket">
-           <img src="images/icon-plata.png" alt="">
+           <img src="images/icon-verde.png" alt="">
            <p class="color-purpura">Precio Preventa</p>
            <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
+           <p>* Hasta mayo 15</p>
            <div class="line-precio-preventa"><hr></div>
 
            <p class="color-purpura">Precio Regular</p>
@@ -302,30 +297,32 @@
            <div class="pricing-boton">
             <form action="">
               <!-- Descripcion del producto -->
-              <input type="hidden" name="descriptcion" value="Neuro Codificación - Medellín - General">
+              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+              <!-- Fecha del evento -->
+              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
               <!-- Precio de venta -->
               <input type="hidden" name="precio" value="250000">
+              <!-- Precio de venta en dolares para PayPal-->
+              <input type="hidden" name="precio_paypal" value="230000">
               <!-- Pais -->
-              <input type="hidden" name="id_pais" value="562169">
-              <!-- Moneda -->
-              <input type="hidden" name="moneda" value="COP">
+              <input type="hidden" name="pais" value="COLOMBIA">
 
-              <input type="submit" class="boton-comprar-tickets">
+              <input align="bottom" type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
             </form>
-             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
            </div>
          </div> 
        </div>
 
        <!-- Plan 2 -->
        <div class="three columns">
-         <div class="title-plata">
+         <div class="title-general-plus">
            <h4>GENERAL PLUS</h4>
          </div>
          <div class="plan-ticket">
-           <img src="images/icon-plata.png" alt="">
+           <img src="images/icon-verde.png" alt="">
            <p class="color-purpura">Precio Preventa</p>
            <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
+           <p>* Hasta mayo 15</p>
            <div class="line-precio-preventa"><hr></div>
 
            <p class="color-purpura">Precio Regular</p>
@@ -333,24 +330,38 @@
 
            <ul class="color-purpura left">
              <li>Memorias digitales</li>
-             <li>Cerficicado digital</li>
+             <li>Certificado digital</li>
            </ul>
 
            <div class="pricing-boton">
-             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+             <form action="">
+              <!-- Descripcion del producto -->
+              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+              <!-- Fecha del evento -->
+              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+              <!-- Precio de venta -->
+              <input type="hidden" name="precio" value="250000">
+              <!-- Precio de venta en dolares para PayPal-->
+              <input type="hidden" name="precio_paypal" value="230000">
+              <!-- Pais -->
+              <input type="hidden" name="pais" value="COLOMBIA">
+
+              <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+            </form>
            </div>
          </div>
        </div>
 
        <!-- Plan 3 -->
        <div class="three columns">
-         <div class="title-oro">
+         <div class="title-vip">
            <h4>V.I.P</h4>
          </div>
          <div class="plan-ticket">
-           <img src="images/icon-dorado.png" alt="">
+           <img src="images/icon-verde.png" alt="">
            <p class="color-purpura">Precio Preventa</p>
            <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
+           <p>* Hasta mayo 15</p>
            <div class="line-precio-preventa"><hr></div>
 
            <p class="color-purpura">Precio Regular</p>
@@ -358,27 +369,41 @@
 
            <ul class="color-purpura left">
              <li>Memorias digitales</li>
-             <li>Cerficicado digital</li>
+             <li>Certificado digital</li>
              <li>Posibilidad de participar en preguntas para tu negocio</li>
              <li>Audioterapia de Neuroriqueza con tecnología bineural, sin audífonos</li>
              <li>Acceso archivo desde la nube</li>
            </ul>
 
            <div class="pricing-boton">
-             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+             <form action="">
+              <!-- Descripcion del producto -->
+              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+              <!-- Fecha del evento -->
+              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+              <!-- Precio de venta -->
+              <input type="hidden" name="precio" value="250000">
+              <!-- Precio de venta en dolares para PayPal-->
+              <input type="hidden" name="precio_paypal" value="230000">
+              <!-- Pais -->
+              <input type="hidden" name="pais" value="COLOMBIA">
+
+              <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+            </form>
            </div>
          </div>
        </div>
 
        <!-- Plan 4 -->
        <div class="three columns">
-         <div class="title-oro">
+         <div class="title-vip-cena">
            <h4>V.I.P + CENA</h4>
          </div>
          <div class="plan-ticket">
-           <img src="images/icon-dorado.png" alt="">
+           <img src="images/icon-verde.png" alt="">
            <p class="color-purpura">Precio Preventa</p>
            <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
+           <p>* Hasta mayo 15</p>
            <div class="line-precio-preventa"><hr></div>
 
            <p class="color-purpura">Precio Regular</p>
@@ -394,7 +419,20 @@
            </ul>
            
            <div class="pricing-boton">
-             <a class="boton-comprar-tickets" href="">COMPRAR TICKETS</a>
+             <form action="">
+              <!-- Descripcion del producto -->
+              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+              <!-- Fecha del evento -->
+              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+              <!-- Precio de venta -->
+              <input type="hidden" name="precio" value="250000">
+              <!-- Precio de venta en dolares para PayPal-->
+              <input type="hidden" name="precio_paypal" value="230000">
+              <!-- Pais -->
+              <input type="hidden" name="pais" value="COLOMBIA">
+
+              <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+            </form>
            </div>
          </div>
        </div>
@@ -415,7 +453,7 @@
       <br><br><br>
       <h4>MEDIOS DE PAGO</h4>
       <p>Puedes pagar de las siguientes formas:</p>
-      <img class="twelve columns" src="images/medios-pago.png" alt="">
+      <a href="#tickets"><img class="twelve columns" src="images/medios-pago.png" alt=""></a>
       
       <div class="text-consignacion">
         <p><strong>Consignación bancaria</strong><br>Cuenta de ahorros Bancolombia 895-769727-85<br>a nombre de Jurgen Klarić<br>con cédula de extranjería N° 356490.<br>Enviar comprobante de la transacción con nombre y teléfono<br>al correo electrónico:<br><a href="mailto:info@jurguenklaric.com">info@jurguenklaric.com</a></p>
@@ -433,10 +471,10 @@
 
      <div class="row">
        <div class="six columns">
-         <img class="twelve columns" style="min-height:324px;" width="100%;" src="images/plaza-mayor.jpg" alt="">
+         <img class="twelve columns" height="300px" width="100%" src="images/plaza-mayor.jpg" alt="">
        </div>
        <div class="six columns">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.153400291423!2d-75.57834868552409!3d6.243505328087787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ab627545c1%3A0x23674fd4c47ec19c!2sPlaza+Mayor!5e0!3m2!1ses!2ses!4v1457047329898" width="100%" height="324" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.153400291423!2d-75.57834868552409!3d6.243505328087787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ab627545c1%3A0x23674fd4c47ec19c!2sPlaza+Mayor!5e0!3m2!1ses!2ses!4v1457047329898" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
        </div>
 
        <div class="twelve columns center">

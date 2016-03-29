@@ -43,6 +43,19 @@
 </script>
 
 <script>
+	$(document).on("ready", main3);
+	function main3(){
+		$(".call-to-action a").on("click", irA3);
+	}
+	function irA3(){
+		var seccion = $(this).attr("href");
+		$("body, html").animate({
+			scrollTop: $(seccion).offset().top
+		},1200);
+		return false;
+	}
+</script>
+<script>
 	$(window).scroll(function(){
 
 	  var scroll = $(window).scrollTop();

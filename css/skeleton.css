@@ -178,9 +178,8 @@ background: -webkit-linear-gradient(top,  #ffe94c 0%,#ffc03f 100%); /* Chrome10-
 background: linear-gradient(to bottom,  #ffe94c 0%,#ffc03f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe94c', endColorstr='#ffc03f',GradientType=0 ); /* IE6-9 */
 color: #323437;
-  width: 100%;
+  max-width: 100%;
   display: inline-block;
-  height: 38px;
   text-align: center;
   font-size: 20px;
   font-weight: 600;

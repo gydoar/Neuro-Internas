@@ -41,7 +41,7 @@
                 $_POST[$key] = mysql_real_escape_string($value); 
               } 
 
-              $sql = "INSERT INTO `cf` (`nombre`,`apellido`,`email`,`telefono`,`ciudad`) VALUES ('{$_POST['nombre']}','{$_POST['apellido']}','{$_POST['email']}','{$_POST['telefono']}','{$_POST['ciudad']}')";
+              $sql = "INSERT INTO `cf` (`nombre`,`apellido`,`email`,`telefono`,`ciudad`,`pais`) VALUES ('{$_POST['nombre']}','{$_POST['apellido']}','{$_POST['email']}','{$_POST['telefono']}','{$_POST['ciudad']}','COLOMBIA')";
                 mysql_query($sql) or die(mysql_error());  
 
             
@@ -108,8 +108,8 @@
                 $_POST[$key] = mysql_real_escape_string($value); 
               } 
 
-              $sql = "INSERT INTO `cf` (`nombre`,`apellido`,`email`,`telefono`,`ciudad`) VALUES ('{$_POST['nombre1']}','{$_POST['apellido1']}','{$_POST['email1']}','{$_POST['telefono1']}','{$_POST['ciudad1']}')";
-                mysql_query($sql) or die(mysql_error());  
+              $sql = "INSERT INTO `cf` (`nombre`,`apellido`,`email`,`telefono`,`ciudad`,`pais`) VALUES ('{$_POST['nombre']}','{$_POST['apellido']}','{$_POST['email']}','{$_POST['telefono']}','{$_POST['ciudad']}','COLOMBIA')";
+                mysql_query($sql) or die(mysql_error());    
 
             
                 $result = '<div class="result_ok">Tu información ha sido enviada correctamente</div>';
