@@ -97,9 +97,10 @@ $(document).ready(function(){
       $("#destino").load("contenido-ajax.php");
    });
 
-   $('#cerrar').on('click',function(){
+   $('#destino').on('click','div div .boton-ticket-header',function(evento){
+   	  evento.preventDefault();
       $('contenido-ajax.php').toggle();
-      $('#cerrar').fadeIn(2000);
+      $('#destino').hide(1000);
    });
 
 })
@@ -110,26 +111,30 @@ $(document).ready(function(){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
    });
-   $('#cerrar2').on('click',function(){
+
+   $('#destino').on('click','div div .boton-ticket-header',function(evento){
+   	  evento.preventDefault();
       $('contenido-ajax.php').toggle();
-      $('#cerrar2').fadeIn(2000);
+      $('#destino').hide(1000);
    });
+
 })
 </script>
-
 <script>
 $(document).ready(function(){
    $("#enlaceajax3").click(function(evento){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
    });
-   $('#cerrar3').on('click',function(){
+
+   $('#destino').on('click','div div .boton-ticket-header',function(evento){
+   	  evento.preventDefault();
       $('contenido-ajax.php').toggle();
-      $('#cerrar3').fadeIn(2000);
+      $('#destino').hide(1000);
    });
+
 })
 </script>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 	    setTimeout(function() {
