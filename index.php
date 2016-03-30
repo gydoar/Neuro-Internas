@@ -41,14 +41,26 @@
     <div class="container people center" id="docentes">
       <div class="three columns offset-by-one nora-people">
         <div><img width="300px;" src="images/nora-sarmiento.png" alt=""></div>
+        <div class="texto-people-nora center">
+          <h2>NORA<br><span>SARMIENTO</span></h2>
+          <p>Neuromarketing</p>
+        </div>
       </div>
 
       <div class="four columns jurgen-photo">
         <div><img width="350px;" src="images/jurgen-klaric.png" alt=""></div>
+        <div class="texto-people-jurgen center">
+          <h2>JÜRGEN<br><span>KLARIĆ</span></h2>
+          <p>Neuroliderazgo</p>
+        </div>
       </div>
 
       <div class="three columns mauricio-people">
         <div><img width="320px;" src="images/mauricio-bock.png" alt=""></div>
+        <div class="texto-people-nora mauricio center">
+          <h2>MAURICIO<br><span>BOCK</span></h2>
+          <p>Neurocoaching</p>
+        </div>
       </div>
     </div>
   </section>
@@ -106,7 +118,7 @@
           Recientemente fue nombrado como el Steve Jobs de la educación gracias a su innovación social educativa BiiA Lab la cual en solo 2 años ya es la institución que regala más becas y cursos por internet en español ademas de ser vista por mas de 1 millón de personas al año en 35 países, con más de 80 conferencias al año el comparte e inspira a miles de personas a lograr más rápido sus objetivos y también a ser mejores personas.</p>
 
           <div class="right margin-top-20px">
-            <h5><a class="boton-yellow various" href="#inline">Reservar mi cupo</a></h5>
+            <h5><a class="boton-yellow" href="#tickets">Reservar mi cupo</a></h5>
           </div>
         </div>
         
@@ -374,7 +386,6 @@
                <li>Memorias digitales</li>
                <li>Certificado digital</li>
                <li>Posibilidad de participar en preguntas para tu negocio</li>
-               <li>Audioterapia de Neuroriqueza con tecnología bineural, sin audífonos</li>
                <li>Acceso archivo desde la nube</li>
              </ul>
            </div>
@@ -400,7 +411,7 @@
        <!-- Plan 4 -->
        <div class="three columns">
          <div class="title-vip-cena">
-           <h4>V.I.P + CENA</h4>
+           <h4>V.I.P ORO</h4>
          </div>
          <div class="caja-plan-ticket">
            <div class="plan-ticket">
@@ -414,22 +425,22 @@
              <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
 
              <ul class="color-purpura left">
+               <li>Acceso preferencia y asiento en las primeras filas</li>
                <li>Memorias en carpeta dura</li>
                <li>Certificado impreso</li>
-               <li>Libro Estamos Ciegos Dedicado</li>
-               <li>Foto con Jürgen</li>
-               <li>Audioterapia de Neuroriqueza con tecnologia bineural, con audífonos</li>
-               <li>Cena consultoría de 2 horas privada</li>
+               <li>Libro estamos ciegos</li>
+               <br>
+               <li>*Cena consultoría opcional llamando al (número del pais)</li>
              </ul>
            </div>
            <div class="pricing-boton">
-               <form action="">
+               <form action="../payment-jurgen" method="post">
                 <!-- Descripcion del producto -->
                 <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
                 <!-- Fecha del evento -->
                 <input type="hidden" name="fecha" value="17 de Mayo de 2016">
                 <!-- Precio de venta -->
-                <input type="hidden" name="precio" value="250000">
+                <input type="hidden" name="precio" value="650000">
                 <!-- Precio de venta en dolares para PayPal-->
                 <input type="hidden" name="precio_paypal" value="230000">
                 <!-- Pais -->

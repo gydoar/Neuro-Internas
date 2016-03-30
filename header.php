@@ -193,7 +193,7 @@
 
       <div class="five columns offset-by-one datos-tel-header center">
         <p class="none">¿NECESITAS <span>HABLAR</span> CON NOSOTROS?</p>
-        <p>Llámanos en COLOMBIA AL</p>
+        <p>Llámanos en COLOMBIA al</p>
         <p><img width="30px" src="images/icon-tel.png" alt=""> <a href="tel:(1) 381 2860">(1) 381 2860</a></p>
       </div>
     </div>
