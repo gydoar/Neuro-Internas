@@ -276,7 +276,10 @@ color: #ffffff;
 	z-index: 600;
 	position: relative;
 	text-align: center;
-	margin-top: -240px;
+	margin-top: -550px;
+}
+.text-readmore{
+	margin-top: -130px;
 }
 .text-people hr{
 	border-top: 2px solid rgba(255,255,255,.5);

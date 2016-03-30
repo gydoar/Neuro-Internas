@@ -8,6 +8,7 @@
 </footer>
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/jquery.fancybox-buttons.js"></script>
@@ -95,6 +96,12 @@ $(document).ready(function(){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
    });
+
+   $('#cerrar').on('click',function(){
+      $('contenido-ajax.php').toggle();
+      $('#cerrar').fadeIn(2000);
+   });
+
 })
 </script>
 <script>
@@ -103,13 +110,22 @@ $(document).ready(function(){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
    });
+   $('#cerrar2').on('click',function(){
+      $('contenido-ajax.php').toggle();
+      $('#cerrar2').fadeIn(2000);
+   });
 })
 </script>
+
 <script>
 $(document).ready(function(){
    $("#enlaceajax3").click(function(evento){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
+   });
+   $('#cerrar3').on('click',function(){
+      $('contenido-ajax.php').toggle();
+      $('#cerrar3').fadeIn(2000);
    });
 })
 </script>

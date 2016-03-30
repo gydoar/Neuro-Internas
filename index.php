@@ -68,7 +68,7 @@
   <!-- Textos people -->
   <div class="text-people">
     <div class="container center">
-      <div class="ten columns offset-by-one">
+      <div class="ten columns offset-by-one text-readmore">
           <div class="four columns">
             <img src="images/circle-colombia.png" alt="">
 
@@ -90,7 +90,7 @@
           <div class="four columns">
             <img src="images/circle-chile.png" alt="">
 
-            <p>Ex gerente de Great Place to Work, Académico de la Universidad del Pacífico,          presidente del Institute of NeuroCoaching.</p>
+            <p>Ex gerente de Great Place to Work, Académico de la Universidad del Pacífico, presidente del Institute of NeuroCoaching.</p>
             
             <div><hr></div>
             <a class="boton-ticket-header" href="" id="enlaceajax3">LEER MÁS</a>

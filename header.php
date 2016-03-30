@@ -169,7 +169,7 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
+  
 </head>
 <body>
   <header>
