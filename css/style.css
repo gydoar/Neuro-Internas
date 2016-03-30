@@ -34,6 +34,13 @@ header{
 header h1{
 	margin-bottom: 0px;
 }
+header p{
+	line-height: 16px;
+}
+
+header p span{
+	color: #FFE600 ;
+}
 .datos-ciudad-header img, .datos-ciudad-header p, .datos-tel-header img, .datos-tel-header p  {
 	display: inline-block;
 	vertical-align: middle;
@@ -63,7 +70,7 @@ header h1{
 }
 .datos-tel-header a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #FFE600;
 	font-size: 22px;
 	font-weight: bold;
 }
@@ -482,8 +489,12 @@ img.sello{
 	padding: 20px 20px;
 	border-radius: 0px 0px 5px 5px;
 	background: #ffffff;
-	min-height: 700px;
+	min-height: 600px;
 	max-width: 100%;
+}
+.caja-plan-ticket{
+	background: #ffffff;
+	border-radius: 0px 0px 5px 5px;
 }
 .pricing-boton{
 
@@ -633,9 +644,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9a239', end
 	text-decoration: none;
 	letter-spacing: 2px;
 }
+p.contacto-whatsapp{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+p.contacto-whatsapp a{
+	font-size: 30px;
+	color: #ffffff;
+}
+p.contacto-whatsapp img{
+	margin-bottom: 0px;
+}
+p.contacto-whatsapp, p.contacto-whatsapp a, p.contacto-whatsapp img{
+	vertical-align: middle;
+}
 .icon-tel, .text-tel{
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: text-top;
 }
 
 .text-consignacion p{
@@ -814,6 +840,9 @@ footer p, footer p img{
 		.call-to-action h4, .text-tel p {
 			font-size: 18px;
 		}
+		p.none{
+			display: none;
+		}
 		.text-tel p {
 			margin-bottom: 5px;
 		}
@@ -925,6 +954,9 @@ footer p, footer p img{
 		}
 		.text-tel p {
 			margin-bottom: 5px;
+		}
+		p.none{
+			display: none;
 		}
 		.text-tel p a{
 			font-size: 26px;

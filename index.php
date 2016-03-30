@@ -279,38 +279,39 @@
          <div class="title-general">
            <h4>GENERAL</h4>
          </div>
-         <div class="plan-ticket">
-           <img src="images/icon-verde.png" alt="">
-           <p class="color-purpura">Precio Preventa</p>
-           <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
-           <p>* Hasta mayo 15</p>
-           <div class="line-precio-preventa"><hr></div>
+         <div class="caja-plan-ticket">
+           <div class="plan-ticket">
+             <img src="images/icon-verde.png" alt="">
+             <p class="color-purpura">Precio Preventa</p>
+             <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
+             <p>* Hasta mayo 15</p>
+             <div class="line-precio-preventa"><hr></div>
 
-           <p class="color-purpura">Precio Regular</p>
-           <h5 class="color-purpura"><span>$</span>350,000<span>COP</span></h5>
+             <p class="color-purpura">Precio Regular</p>
+             <h5 class="color-purpura"><span>$</span>350,000<span>COP</span></h5>
 
-           <ul class="color-purpura left">
-             <li>Memorias digitales</li>
-             <li>Cerficicado digital</li>
-           </ul>
+             <ul class="color-purpura left">
+               <li>Memorias digitales</li>
+               <li>Cerficicado digital</li>
+             </ul>
+           </div> 
+             <div class="pricing-boton">
+              <form action="">
+                <!-- Descripcion del producto -->
+                <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+                <!-- Fecha del evento -->
+                <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+                <!-- Precio de venta -->
+                <input type="hidden" name="precio" value="250000">
+                <!-- Precio de venta en dolares para PayPal-->
+                <input type="hidden" name="precio_paypal" value="230000">
+                <!-- Pais -->
+                <input type="hidden" name="pais" value="COLOMBIA">
 
-           <div class="pricing-boton">
-            <form action="">
-              <!-- Descripcion del producto -->
-              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
-              <!-- Fecha del evento -->
-              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
-              <!-- Precio de venta -->
-              <input type="hidden" name="precio" value="250000">
-              <!-- Precio de venta en dolares para PayPal-->
-              <input type="hidden" name="precio_paypal" value="230000">
-              <!-- Pais -->
-              <input type="hidden" name="pais" value="COLOMBIA">
-
-              <input align="bottom" type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
-            </form>
-           </div>
-         </div> 
+                <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+              </form>
+             </div>
+          </div>
        </div>
 
        <!-- Plan 2 -->
@@ -318,38 +319,39 @@
          <div class="title-general-plus">
            <h4>GENERAL PLUS</h4>
          </div>
-         <div class="plan-ticket">
-           <img src="images/icon-verde.png" alt="">
-           <p class="color-purpura">Precio Preventa</p>
-           <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
-           <p>* Hasta mayo 15</p>
-           <div class="line-precio-preventa"><hr></div>
+         <div class="caja-plan-ticket">
+           <div class="plan-ticket">
+             <img src="images/icon-verde.png" alt="">
+             <p class="color-purpura">Precio Preventa</p>
+             <h5 class="color-gray"><span>$</span>250,000<span>COP</span></h5>
+             <p>* Hasta mayo 15</p>
+             <div class="line-precio-preventa"><hr></div>
 
-           <p class="color-purpura">Precio Regular</p>
-           <h5 class="color-purpura"><span>$</span>350,000<span>COP</span></h5>
+             <p class="color-purpura">Precio Regular</p>
+             <h5 class="color-purpura"><span>$</span>350,000<span>COP</span></h5>
 
-           <ul class="color-purpura left">
-             <li>Memorias digitales</li>
-             <li>Certificado digital</li>
-           </ul>
-
-           <div class="pricing-boton">
-             <form action="">
-              <!-- Descripcion del producto -->
-              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
-              <!-- Fecha del evento -->
-              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
-              <!-- Precio de venta -->
-              <input type="hidden" name="precio" value="250000">
-              <!-- Precio de venta en dolares para PayPal-->
-              <input type="hidden" name="precio_paypal" value="230000">
-              <!-- Pais -->
-              <input type="hidden" name="pais" value="COLOMBIA">
-
-              <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
-            </form>
+             <ul class="color-purpura left">
+               <li>Memorias digitales</li>
+               <li>Certificado digital</li>
+             </ul>
            </div>
-         </div>
+           <div class="pricing-boton">
+               <form action="">
+                <!-- Descripcion del producto -->
+                <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+                <!-- Fecha del evento -->
+                <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+                <!-- Precio de venta -->
+                <input type="hidden" name="precio" value="250000">
+                <!-- Precio de venta en dolares para PayPal-->
+                <input type="hidden" name="precio_paypal" value="230000">
+                <!-- Pais -->
+                <input type="hidden" name="pais" value="COLOMBIA">
+
+                <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+              </form>
+             </div>
+        </div>
        </div>
 
        <!-- Plan 3 -->
@@ -357,41 +359,42 @@
          <div class="title-vip">
            <h4>V.I.P</h4>
          </div>
-         <div class="plan-ticket">
-           <img src="images/icon-verde.png" alt="">
-           <p class="color-purpura">Precio Preventa</p>
-           <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
-           <p>* Hasta mayo 15</p>
-           <div class="line-precio-preventa"><hr></div>
+         <div class="caja-plan-ticket">
+           <div class="plan-ticket">
+             <img src="images/icon-verde.png" alt="">
+             <p class="color-purpura">Precio Preventa</p>
+             <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
+             <p>* Hasta mayo 15</p>
+             <div class="line-precio-preventa"><hr></div>
 
-           <p class="color-purpura">Precio Regular</p>
-           <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
+             <p class="color-purpura">Precio Regular</p>
+             <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
 
-           <ul class="color-purpura left">
-             <li>Memorias digitales</li>
-             <li>Certificado digital</li>
-             <li>Posibilidad de participar en preguntas para tu negocio</li>
-             <li>Audioterapia de Neuroriqueza con tecnología bineural, sin audífonos</li>
-             <li>Acceso archivo desde la nube</li>
-           </ul>
-
-           <div class="pricing-boton">
-             <form action="">
-              <!-- Descripcion del producto -->
-              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
-              <!-- Fecha del evento -->
-              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
-              <!-- Precio de venta -->
-              <input type="hidden" name="precio" value="250000">
-              <!-- Precio de venta en dolares para PayPal-->
-              <input type="hidden" name="precio_paypal" value="230000">
-              <!-- Pais -->
-              <input type="hidden" name="pais" value="COLOMBIA">
-
-              <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
-            </form>
+             <ul class="color-purpura left">
+               <li>Memorias digitales</li>
+               <li>Certificado digital</li>
+               <li>Posibilidad de participar en preguntas para tu negocio</li>
+               <li>Audioterapia de Neuroriqueza con tecnología bineural, sin audífonos</li>
+               <li>Acceso archivo desde la nube</li>
+             </ul>
            </div>
-         </div>
+           <div class="pricing-boton">
+               <form action="">
+                <!-- Descripcion del producto -->
+                <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+                <!-- Fecha del evento -->
+                <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+                <!-- Precio de venta -->
+                <input type="hidden" name="precio" value="250000">
+                <!-- Precio de venta en dolares para PayPal-->
+                <input type="hidden" name="precio_paypal" value="230000">
+                <!-- Pais -->
+                <input type="hidden" name="pais" value="COLOMBIA">
+
+                <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+              </form>
+             </div>
+        </div>
        </div>
 
        <!-- Plan 4 -->
@@ -399,42 +402,43 @@
          <div class="title-vip-cena">
            <h4>V.I.P + CENA</h4>
          </div>
-         <div class="plan-ticket">
-           <img src="images/icon-verde.png" alt="">
-           <p class="color-purpura">Precio Preventa</p>
-           <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
-           <p>* Hasta mayo 15</p>
-           <div class="line-precio-preventa"><hr></div>
+         <div class="caja-plan-ticket">
+           <div class="plan-ticket">
+             <img src="images/icon-verde.png" alt="">
+             <p class="color-purpura">Precio Preventa</p>
+             <h5 class="color-dorado"><span>$</span>500,000<span>COP</span></h5>
+             <p>* Hasta mayo 15</p>
+             <div class="line-precio-preventa"><hr></div>
 
-           <p class="color-purpura">Precio Regular</p>
-           <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
+             <p class="color-purpura">Precio Regular</p>
+             <h5 class="color-purpura"><span>$</span>700,000<span>COP</span></h5>
 
-           <ul class="color-purpura left">
-             <li>Memorias en carpeta dura</li>
-             <li>Certificado impreso</li>
-             <li>Libro Estamos Ciegos Dedicado</li>
-             <li>Foto con Jürgen</li>
-             <li>Audioterapia de Neuroriqueza con tecnologia bineural, con audífonos</li>
-             <li>Cena consultoría de 2 horas privada</li>
-           </ul>
-           
-           <div class="pricing-boton">
-             <form action="">
-              <!-- Descripcion del producto -->
-              <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
-              <!-- Fecha del evento -->
-              <input type="hidden" name="fecha" value="17 de Mayo de 2016">
-              <!-- Precio de venta -->
-              <input type="hidden" name="precio" value="250000">
-              <!-- Precio de venta en dolares para PayPal-->
-              <input type="hidden" name="precio_paypal" value="230000">
-              <!-- Pais -->
-              <input type="hidden" name="pais" value="COLOMBIA">
-
-              <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
-            </form>
+             <ul class="color-purpura left">
+               <li>Memorias en carpeta dura</li>
+               <li>Certificado impreso</li>
+               <li>Libro Estamos Ciegos Dedicado</li>
+               <li>Foto con Jürgen</li>
+               <li>Audioterapia de Neuroriqueza con tecnologia bineural, con audífonos</li>
+               <li>Cena consultoría de 2 horas privada</li>
+             </ul>
            </div>
-         </div>
+           <div class="pricing-boton">
+               <form action="">
+                <!-- Descripcion del producto -->
+                <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
+                <!-- Fecha del evento -->
+                <input type="hidden" name="fecha" value="17 de Mayo de 2016">
+                <!-- Precio de venta -->
+                <input type="hidden" name="precio" value="250000">
+                <!-- Precio de venta en dolares para PayPal-->
+                <input type="hidden" name="precio_paypal" value="230000">
+                <!-- Pais -->
+                <input type="hidden" name="pais" value="COLOMBIA">
+
+                <input type="submit" class="boton-comprar-tickets" value="COMPRAR TICKETS">
+              </form>
+             </div>
+         </div> 
        </div>
     </div>  
    </div>
@@ -449,6 +453,7 @@
       </div>
       <div class="text-tel">
         <p>Llámanos en Colombia al <br><a href="tel:(1) 381 2860">(1) 381 2860</a></p>
+        <p class="contacto-whatsapp">Escribenos al Whatsapp <br><img width="30px" src="images/icon-whatsapp.png" alt="">&nbsp;&nbsp;<a href="tel:+1 786 805 0449">+1 786 805 0449</a></p>
       </div>
       <br><br><br>
       <h4>MEDIOS DE PAGO</h4>

@@ -184,9 +184,17 @@
       <div class="three columns datos-ciudad-header">
         <img src="images/bandera-colombia.png" alt=""> <p>Medellín, <br><span>Colombia</span></p>
       </div>
-
+      
+      <!--
       <div class="four columns offset-by-two datos-tel-header">
         <img width="50px" src="images/icon-whatsapp.png" alt=""> <p>Separa tu cupo <br> <a href="tel: +1 (786) 805-0449"> +1 (786) 805-0449</a></p>
+      </div>
+      -->
+
+      <div class="five columns offset-by-one datos-tel-header center">
+        <p class="none">¿NECESITAS <span>HABLAR</span> CON NOSOTROS?</p>
+        <p>Llámanos en COLOMBIA AL</p>
+        <p><img width="30px" src="images/icon-tel.png" alt=""> <a href="tel:(1) 381 2860">(1) 381 2860</a></p>
       </div>
     </div>
 
