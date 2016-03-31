@@ -218,8 +218,15 @@ color: #ffffff;
 .texto-people-nora h2, .texto-people-nora p, .texto-people-jurgen h2, .texto-people-jurgen p{
 	margin-bottom: 0px;
 }
+.texto-people-jurgen h2{
+	line-height: 40px;
+}
 .texto-people-nora p, .texto-people-jurgen p{
 	font-size: 18px;
+}
+.texto-people-jurgen p{
+	text-shadow: 3px 4px 5px #000000;
+	line-height: 10px;
 }
 .texto-people-nora h2 span{
 	font-size: 30px;
@@ -227,7 +234,7 @@ color: #ffffff;
 .texto-people-jurgen{
 	position: relative;
 	z-index: 600;
-	top: -250px;
+	top: -260px;
 	left: 20px;
 }
 .texto-people-jurgen h2{
@@ -279,7 +286,7 @@ color: #ffffff;
 	margin-top: -550px;
 }
 .text-readmore{
-	margin-top: -130px;
+	margin-top: -90px;
 }
 .text-people hr{
 	border-top: 2px solid rgba(255,255,255,.5);
@@ -522,8 +529,11 @@ img.sello{
 	padding: 20px 20px 0px 20px;
 	border-radius: 0px 0px 5px 5px;
 	background: #ffffff;
-	min-height: 560px;
+	min-height: 450px;
 	max-width: 100%;
+}
+.color-white{
+	color: #ffffff;
 }
 .plan-ticket ul{
 	margin-bottom: 0px;
@@ -667,12 +677,12 @@ input.boton-comprar-tickets{
 	letter-spacing: 2px;
 }
 p.contacto-whatsapp{
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 30px;
+	line-height: 40px;
 }
 
 p.contacto-whatsapp a{
-	font-size: 30px;
+	font-size: 50px;
 	color: #ffffff;
 }
 p.contacto-whatsapp img{

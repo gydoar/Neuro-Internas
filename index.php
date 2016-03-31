@@ -259,8 +259,8 @@
 
      <p>*Si adquieres la inscripción con memorias contarás con este valioso material de estudio.</p>
    </div>
-   <div class="center">
-      <h5><a class="boton-yellow various" href="#inline">Deseo inscribirme y recibir memorias del evento</a></h5>
+   <!--<div class="center">
+      <h5><a class="boton-yellow various" href="#inline">Deseo inscribirme y recibir memorias del evento</a></h5> -->
    </div>
  </section>
 
@@ -368,8 +368,8 @@
 
        <!-- Plan 3 -->
        <div class="three columns">
-         <div class="title-vip">
-           <h4>V.I.P</h4>
+         <div class="title-vip-cena">
+           <h4>V.I.P ORO</h4>
          </div>
          <div class="caja-plan-ticket">
            <div class="plan-ticket">
@@ -410,8 +410,8 @@
 
        <!-- Plan 4 -->
        <div class="three columns">
-         <div class="title-vip-cena">
-           <h4>V.I.P ORO</h4>
+         <div class="title-vip">
+           <h4>V.I.P PLATINO</h4>
          </div>
          <div class="caja-plan-ticket">
            <div class="plan-ticket">
@@ -429,12 +429,10 @@
                <li>Memorias en carpeta dura</li>
                <li>Certificado impreso</li>
                <li>Libro estamos ciegos</li>
-               <br>
-               <li>*Cena consultoría opcional llamando al (número del pais)</li>
              </ul>
            </div>
            <div class="pricing-boton">
-               <form action="../payment-jurgen" method="post">
+               <form action="../payment-jurgen/index.php" method="post">
                 <!-- Descripcion del producto -->
                 <input type="hidden" name="descripcion" value="Neuro Codificación - Medellín - General">
                 <!-- Fecha del evento -->
@@ -451,6 +449,9 @@
              </div>
          </div> 
        </div>
+       <div class="twelve columns color-white">
+         <p>*Cena consultoría opcional llamando al (57 1) 381 2860</p>
+       </div>
     </div>  
    </div>
 
@@ -464,7 +465,7 @@
       </div>
       <div class="text-tel">
         <p>Llámanos en Colombia al <br><a href="tel:(1) 381 2860">(1) 381 2860</a></p>
-        <p class="contacto-whatsapp">Escribenos al Whatsapp <br><img width="30px" src="images/icon-whatsapp.png" alt="">&nbsp;&nbsp;<a href="tel:+1 786 805 0449">+1 786 805 0449</a></p>
+        <p class="contacto-whatsapp">Escribenos al Whatsapp <br><img width="40px" src="images/icon-whatsapp.png" alt="">&nbsp;&nbsp;<a href="tel:+1 786 805 0449">+1 786 805 0449</a></p>
       </div>
       <br><br><br>
       <h4>MEDIOS DE PAGO</h4>
