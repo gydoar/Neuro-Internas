@@ -73,18 +73,25 @@
             <img src="images/circle-colombia.png" alt="">
 
             <p>Psicóloga, Neurocientífica, Académica de la Universidad Konrad Lorenz y Directora científica de Mindcode Institute.</p>
-
+            
+            <div id="respuesta-ej1" style="display:none">
+              <p>Nadie sabe más y ni ha realizado más estudios de neuromarketing en Latinoamérica que Nora. Ella en su experiencia ha descubierto los algoritmos matemáticos para crear el software mental; el cual es usado por una docena de empresas líderes en América. Todo lo anterior la hace una de las personas con más bagaje en el sector.</p>
+            </div>
             <div><hr></div>
-            <a class="boton-ticket-header" href="" id="enlaceajax">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="alternar-respuesta-ej1">LEER MÁS</a>
           </div>
 
           <div class="four columns">
             <img src="images/circle-us.png" alt="">
 
             <p>Klaric´ es Investigador, escritor y docente en temas relacionados con el comportamiento inconsciente de los seres humanos.</p>
+            
+            <div id="respuesta-ej2" style="display:none">
+              <p>Considerado uno de los 3 divulgadores neurocientíficos más importantes en Hispanoamérica, autor del Best Seller “Estamos Ciegos” de Editorial Planeta; Co-fundador y presidente de BiiA Lab USA; presidente de Mindcode Institute, a través del cual brinda en la actualidad consultoría a altos directivos y presidentes de las empresas más importantes en 12 países.</p>
+            </div>
 
             <div><hr></div>
-            <a class="boton-ticket-header" href="" id="enlaceajax2">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="alternar-respuesta-ej2">LEER MÁS</a>
           </div>
 
           <div class="four columns">
@@ -92,8 +99,12 @@
 
             <p>Ex gerente de Great Place to Work, Académico de la Universidad del Pacífico, presidente del Institute of NeuroCoaching.</p>
             
+            <div id="respuesta-ej3" style="display:none">
+              <p>Mauricio es uno de los coaches con más experiencia en mezclar el conocimiento de la mente humana, la neuroeducación y el coaching. Él cree que la mejor forma de entenderse y practicar un coaching eficaz es utilizando lo mejor de cada una de las diferentes técnicas y ciencias, logrando así un resultado más integro y completo.</p>
+            </div>
+
             <div><hr></div>
-            <a class="boton-ticket-header" href="" id="enlaceajax3">LEER MÁS</a>
+            <a class="boton-ticket-header" href="" id="alternar-respuesta-ej3">LEER MÁS</a>
           </div>
           <div id="destino"></div>
       </div>

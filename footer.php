@@ -95,13 +95,9 @@ $(document).ready(function(){
    $("#enlaceajax").click(function(evento){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
+
    });
 
-   $('#destino').on('click','div div .boton-ticket-header',function(evento){
-   	  evento.preventDefault();
-      $('contenido-ajax.php').toggle();
-      $('#destino').hide(1000);
-   });
 
 })
 </script>
@@ -110,12 +106,6 @@ $(document).ready(function(){
    $("#enlaceajax2").click(function(evento){
       evento.preventDefault();
       $("#destino").load("contenido-ajax.php");
-   });
-
-   $('#destino').on('click','div div .boton-ticket-header',function(evento){
-   	  evento.preventDefault();
-      $('contenido-ajax.php').toggle();
-      $('#destino').hide(1000);
    });
 
 })
@@ -127,13 +117,67 @@ $(document).ready(function(){
       $("#destino").load("contenido-ajax.php");
    });
 
-   $('#destino').on('click','div div .boton-ticket-header',function(evento){
-   	  evento.preventDefault();
-      $('contenido-ajax.php').toggle();
-      $('#destino').hide(1000);
-   });
-
 })
+</script>
+<script>
+	// jQuery
+	$(document).ready(function(){ 
+	  
+	    $('#alternar-respuesta-ej1').toggle( 
+	  
+	        // Primer click
+	        function(e){ 
+	            $('#respuesta-ej1').slideDown();
+	            $(this).text('CERRAR');
+	            e.preventDefault();
+	        }, // Separamos las dos funciones con una coma
+	      
+	        // Segundo click
+	        function(e){ 
+	            $('#respuesta-ej1').slideUp();
+	            $(this).text('LEER MÁS');
+	            e.preventDefault();
+	        }
+	  
+	    );
+
+	    $('#alternar-respuesta-ej2').toggle( 
+	  
+	        // Primer click
+	        function(e){ 
+	            $('#respuesta-ej2').slideDown();
+	            $(this).text('CERRAR');
+	            e.preventDefault();
+	        }, // Separamos las dos funciones con una coma
+	      
+	        // Segundo click
+	        function(e){ 
+	            $('#respuesta-ej2').slideUp();
+	            $(this).text('LEER MÁS');
+	            e.preventDefault();
+	        }
+	  
+	    );
+
+	    $('#alternar-respuesta-ej3').toggle( 
+	  
+	        // Primer click
+	        function(e){ 
+	            $('#respuesta-ej3').slideDown();
+	            $(this).text('CERRAR');
+	            e.preventDefault();
+	        }, // Separamos las dos funciones con una coma
+	      
+	        // Segundo click
+	        function(e){ 
+	            $('#respuesta-ej3').slideUp();
+	            $(this).text('LEER MÁS');
+	            e.preventDefault();
+	        }
+	  
+	    );
+	  
+	});
 </script>
 <script type="text/javascript">
 	$(document).ready(function() {
