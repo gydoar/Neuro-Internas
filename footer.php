@@ -89,36 +89,6 @@
 	});
 </script>
 
-<!-- mostrar texto con Ajax -->
-<script>
-$(document).ready(function(){
-   $("#enlaceajax").click(function(evento){
-      evento.preventDefault();
-      $("#destino").load("contenido-ajax.php");
-
-   });
-
-
-})
-</script>
-<script>
-$(document).ready(function(){
-   $("#enlaceajax2").click(function(evento){
-      evento.preventDefault();
-      $("#destino").load("contenido-ajax.php");
-   });
-
-})
-</script>
-<script>
-$(document).ready(function(){
-   $("#enlaceajax3").click(function(evento){
-      evento.preventDefault();
-      $("#destino").load("contenido-ajax.php");
-   });
-
-})
-</script>
 <script>
 	// jQuery
 	$(document).ready(function(){ 
